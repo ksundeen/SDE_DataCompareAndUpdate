@@ -1,0 +1,2 @@
+# SDe_DataCompareAndUpdate
+This script uses a class structure that takes a file geodatabase and SDE connection to create objects to run methods for comparing changes, updating changes, or exporting results to a csv file. It uses Scheider Electric's ArcFM Editing modules enumerations and Dispath.  The process runs through a file gdb &amp; compares tables &amp; field values with another gdb for updates and reports where changes are made before import. Once confirmed with updates, script continues &amp; can update destination gdb with edits from origin gdb. It
